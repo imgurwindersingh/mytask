@@ -1,0 +1,64 @@
+
+// To run locally
+export ANDROID_HOME=/Users/campion/Library/Android/sdk
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+
+// To create keystore for relasing mode
+sudo keytool -genkey -v -keystore my-task-key.keystore -alias my-task-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+STEP 1:
+npx react-native init mytask --template react-native-template-typescript
+
+STEP 2:
+npm install @react-navigation/native --save
+
+STEP 3:
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view --save
+
+STEP 4:
+npm install @react-navigation/stack --save
+
+STEP 5:
+npx pod-install ios
+
+STEP 6:
+npm i react-native-splash-screen
+
+STEP 7:
+npm i react-native-size-matters
+
+STEP 8:
+npm i date-and-time
+npm i --save-dev @types/date-and-time
+
+STEP 9:
+npm i react-native-snackbar
+
+STEP 11:
+npm i react-native-status-bar-height
+npm i react-native-paper
+
+STEP 12:
+npm i @react-native-community/netinfo
+
+STEP 13:
+npm install @react-navigation/drawer
+
+STEP 14:
+npm i @react-native-async-storage/async-storage
+
+STEP 15:
+npm i react-native-app-intro-slider
+
+STEP 16:
+npm i react-native-vector-icons
+
+STEP 17:
+npm install react-native-elements
+
+
+
+
+STEP BP:
+Zy8Hd8JksNeqdfVZHQs2
